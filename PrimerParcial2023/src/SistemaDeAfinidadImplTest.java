@@ -1,8 +1,8 @@
 
 import Entities.Cliente;
 import Entities.Producto;
-import exceptions.EntidadNoExiste;
-import exceptions.EntidadYaExiste;
+import Exceptions.EntidadNoExiste;
+import Exceptions.EntidadYaExiste;
 import org.junit.jupiter.api.Test;
 import uy.edu.um.adt.linkedlist.MyLinkedListImpl;
 import uy.edu.um.adt.linkedlist.MyList;

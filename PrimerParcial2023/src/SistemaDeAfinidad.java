@@ -3,12 +3,12 @@ import uy.edu.um.adt.linkedlist.MyList;
 
 public interface SistemaDeAfinidad {
 
-    void afiliarCliente(String nombre, String cedula) throws exceptions.EntidadYaExiste;
+    void afiliarCliente(String nombre, String cedula) throws Exceptions.EntidadYaExiste;
 
-    long procesarProximaAfiliacion() throws exceptions.EntidadNoExiste;
+    long procesarProximaAfiliacion() throws Exceptions.EntidadNoExiste;
 
-    void registrarCompra(long nroCliente, long nroCompra, MyList<Producto> productos) throws exceptions.EntidadNoExiste;
+    void registrarCompra(long nroCliente, long nroCompra, MyList<Producto> productos) throws Exceptions.EntidadNoExiste;
 
-    Producto buscarProducto() throws exceptions.EntidadNoExiste;
+    Producto buscarProducto() throws Exceptions.EntidadNoExiste;
 
 }

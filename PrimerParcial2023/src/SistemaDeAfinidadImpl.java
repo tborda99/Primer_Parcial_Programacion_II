@@ -1,9 +1,9 @@
 import Entities.Cliente;
 import Entities.Compra;
 import Entities.Producto;
-import exceptions.EntidadNoExiste;
-import exceptions.EntidadYaExiste;
-import exceptions.InformacionInvalida;
+import Exceptions.EntidadNoExiste;
+import Exceptions.EntidadYaExiste;
+import Exceptions.InformacionInvalida;
 import uy.edu.um.adt.linkedlist.MyLinkedListImpl;
 import uy.edu.um.adt.linkedlist.MyList;
 import uy.edu.um.adt.queue.EmptyQueueException;
